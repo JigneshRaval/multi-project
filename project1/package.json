@@ -1,0 +1,16 @@
+{
+    "name": "project1",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "build": "tsc hello.world.ts --outfile index.js",
+        "test": "echo \"Running test cases for project 1\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "tslint": "^5.12.1",
+        "typescript": "^3.3.3"
+    },
+    "dependencies": {}
+}
