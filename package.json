@@ -1,0 +1,19 @@
+{
+    "name": "multi-project",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "project1": "cd project1 && npm install",
+        "project1:build": "npm run build --prefix ./project1",
+        "project2": "cd project2 && npm install",
+        "project2:build": "npm run build --prefix ./project2",
+        "project2:test": "npm run test --prefix ./project2",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {},
+    "dependencies": {
+        "project1": "file:project1"
+    }
+}
